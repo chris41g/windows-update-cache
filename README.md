@@ -66,4 +66,4 @@ docker run --name windows-update-cache \
 
 ## Tips
 * Only use rootless container runtime (podman, rootless docker)
-* Don't windows-update-cache to ports < 1024 (requires root), use NAT/reverse proxy (haproxy, traefik, nginx)
+* Don't bind to ports < 1024 (requires root), use NAT/reverse proxy (haproxy, traefik, nginx)

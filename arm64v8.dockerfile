@@ -1,3 +1,6 @@
+# :: QEMU
+  FROM multiarch/qemu-user-static:x86_64-aarch64 as qemu
+
 # :: Util
   FROM alpine as util
 
@@ -7,7 +10,8 @@
     git clone https://github.com/11notes/util.git;
 
 # :: Header
-  FROM 11notes/nginx:stable
+  FROM 11notes/nginx:arm64v8-stable
+  COPY --from=qemu /usr/bin/qemu-aarch64-static /usr/bin
   COPY --from=util /util/linux/shell/elevenLogJSON /usr/local/bin
   ENV APP_ROOT=/nginx
   ENV APP_NAME="windows-update-cache"

@@ -1,0 +1,14 @@
+version: "3.8"
+services:
+  traefik:
+    image: "11notes/windows-update-cache:1.0.0"
+    container_name: "windows-update-cache"
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - "www:/nginx/www"
+    sysctls:
+      - net.ipv4.ip_unprivileged_port_start=80
+volumes:
+  www:

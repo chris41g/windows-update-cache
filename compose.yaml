@@ -1,7 +1,7 @@
 version: "3.8"
 services:
   traefik:
-    image: "11notes/windows-update-cache:1.0.0"
+    image: "11notes/windows-update-cache:1.1.0"
     container_name: "windows-update-cache"
     ports:
       - "80:80"

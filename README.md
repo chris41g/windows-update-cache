@@ -1,7 +1,7 @@
 ![Banner](https://github.com/11notes/defaults/blob/main/static/img/banner.png?raw=true)
 
 # 🏔️ Alpine - Windows Update Cache
-![size](https://img.shields.io/docker/image-size/11notes/windows-update-cache/1.0.0?color=0eb305) ![version](https://img.shields.io/docker/v/11notes/windows-update-cache/1.0.0?color=eb7a09) ![pulls](https://img.shields.io/docker/pulls/11notes/windows-update-cache?color=2b75d6) ![activity](https://img.shields.io/github/commit-activity/m/11notes/docker-windows-update-cache?color=c91cb8) ![commit-last](https://img.shields.io/github/last-commit/11notes/docker-windows-update-cache?color=c91cb8) ![stars](https://img.shields.io/docker/stars/11notes/windows-update-cache?color=e6a50e)
+![size](https://img.shields.io/docker/image-size/11notes/windows-update-cache/1.1.0?color=0eb305) ![version](https://img.shields.io/docker/v/11notes/windows-update-cache/1.1.0?color=eb7a09) ![pulls](https://img.shields.io/docker/pulls/11notes/windows-update-cache?color=2b75d6) ![activity](https://img.shields.io/github/commit-activity/m/11notes/docker-windows-update-cache?color=c91cb8) ![commit-last](https://img.shields.io/github/last-commit/11notes/docker-windows-update-cache?color=c91cb8) ![stars](https://img.shields.io/docker/stars/11notes/windows-update-cache?color=e6a50e)
 
 **Cache Windows Update for all clients via Nginx**
 
